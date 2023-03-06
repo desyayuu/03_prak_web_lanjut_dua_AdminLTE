@@ -62,5 +62,6 @@
 <script src="{{ asset('/') }}dist/js/demo.js"></script>
 
 @stack('js')
+
 </body>
 </html>
