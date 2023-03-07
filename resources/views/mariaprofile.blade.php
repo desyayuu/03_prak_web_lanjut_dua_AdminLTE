@@ -5,7 +5,7 @@
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1>Profile Page</h1>
+              <h1 style="font-family: fantasy">Profile Page</h1>
             </div>
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
@@ -23,7 +23,7 @@
                 <h3 class="card-title">Profil</h3>
             </div>
             <div class="image">
-                <img src="{{ asset('/') }}dist/img/dilla.png" class="img-circle elevation-2" alt="User Image">
+                <img src="{{ asset('/') }}dist/img/dilla2.png" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="card-body">
                 Nama: Maria Fadilla<br>
