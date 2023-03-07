@@ -28,10 +28,7 @@ Route::get('/dashboard', [DashboardController::class, 'index'])->name('dash');
 
 
 //Profile
-Route::prefix('profile')->group(function(){
-    Route::get('/desy', [ProfileController::class, 'desy'])->name('desyprofile');
-    Route::get('/maria', [ProfileController::class, 'maria'])->name('mariaprofile');
-});
+Route::get('/profile/{profile?}', [ProfileController::class, 'profile'])->name('profile');
 
 //Pengalaman 
 Route::prefix('pengalaman')->group(function(){

@@ -23,14 +23,14 @@
                 <h3 class="card-title">Profil</h3>
             </div>
             <div class="image">
-                <img src="{{ asset('/') }}dist/img/ayu.png" class="img-circle elevation-2" alt="User Image">
+                <img src="{{ asset('/') }}dist/img/dilla.png" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="card-body">
-                Nama: Desy Ayurianti<br>
-                NIM: 2141720119 <br>
+                Nama: Maria Fadilla<br>
+                NIM: 2141720063 <br>
                 Kelas: TI 2G <br>
                 Jurusan: Teknologi Informasi <br>
-                Asal Daerah: Sumenep <br>
+                Asal Daerah: Kediri <br>
             </div>
         </div>
     </div>

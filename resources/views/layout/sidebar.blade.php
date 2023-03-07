@@ -2,7 +2,7 @@
     <!-- Brand Logo -->
     <a href="{{ asset('/') }}index3.html" class="brand-link">
       <img src="{{ asset('/') }}dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">AdminLTE 3</span>
+      <span class="brand-text font-weight-light">03_PWL_dua</span>
     </a>
 
     <!-- Sidebar -->
@@ -10,10 +10,10 @@
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="{{ asset('/') }}dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="{{ asset('/') }}dist/img/desymaria.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">Desy-Maria</a>
         </div>
       </div>
 
@@ -53,13 +53,13 @@
             </a>
             <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="{{Route('desyprofile')}}" class="nav-link">
+                  <a href="{{Route('profile', ['profile' => 'desy']) }}" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Desy Ayurianti</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="{{Route('mariaprofile')}}" class="nav-link">
+                  <a href="{{Route('profile', ['profile' => 'maria']) }}" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Maria Fadilla</p>
                   </a>

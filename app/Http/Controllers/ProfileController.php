@@ -7,13 +7,13 @@ use Illuminate\Http\Request;
 class ProfileController extends Controller
 {
     //
-    public function desy(){
-        return view('desyprofile')
-        ->with('nama', 'Desy Ayurianti')
-        ->with('nim', '2141720119')
-        ->with('kelas', 'TI-2G')
-        ->with('jurusan', 'D4 Teknik Informatika')
-        ->with('asal', 'Sumenep');
-
+    public function profile($profile=''){
+        if($profile=='desy'){
+            return view('desyprofile');
+        }else if($profile=='maria'){
+            return view('mariaprofile');
+        }else{
+            return view('dashboard');
+        }
     }
 }
