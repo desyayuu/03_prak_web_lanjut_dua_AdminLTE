@@ -35,8 +35,3 @@ Route::prefix('pengalaman')->group(function(){
     Route::get('/desy', [PengalamanController::class, 'desy'])->name('desypengalaman');
     Route::get('/maria', [PengalamanController::class, 'maria'])->name('mariapengalaman');
 });
-
-
-// halo
-// muncul nggak?
-// bismillah
